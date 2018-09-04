@@ -49,7 +49,7 @@ table {
   .steps {
     display: flex;
     justify-content: space-around;
-    width: 800px; }
+    width: 800px !important; }
     .steps .steps-un {
       width: 190px; }
       .steps .steps-un .num-text {
