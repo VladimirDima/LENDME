@@ -1,0 +1,184 @@
+@import 'reset';
+@import 'variables';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: $tertiary-color;
+}
+
+.spacing {
+	padding-bottom: 20px;
+}
+h3 {
+	font-size: $medium;
+}
+.header {
+	background: #58a980;
+	color: $secondary-color;
+	padding: 30px;
+	.logo {
+		font-size: 30px;
+	}
+	.subhead {
+		font-size: $small;
+	}
+}
+.lend {
+	font-weight: 600;
+}
+.sms {
+	text-align: center;
+}
+.login {
+	margin: 0 auto;
+	width: 100%;
+	font-size: $medium;
+	font-weight: 600;
+	color: $tertiary-color;
+	background: #f0f0f0;
+	display: table;
+	overflow: hidden;
+	padding: 50px 0;
+	margin-bottom: 40px;
+	.login-text {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.cpr {
+	font-weight: 600;
+
+}
+.p-padding {
+	padding: 20px;
+}
+input {
+	border: 1px solid #4343434f;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    padding-left: 16px;
+}
+button {
+    width: 200px;
+    height: 45px;
+    background: #58a980;
+    border: none;
+    margin-top: 10px;
+    color: $secondary-color;
+    font-size: 20px;
+    font-weight: 300;
+}
+.steps {
+	width: 220px;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 11px;
+ 	p {
+		font-weight: 600;
+	}
+	.num-text {
+		margin: 10px 0 20px 0;
+	}
+}
+.circle {
+	border: 1px solid black;
+    padding: 20px;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+}
+.contact {
+	text-align: center;
+	background: #58a881;
+	color: $secondary-color;
+	padding: 50px 0;
+}
+.footer-menu {
+	display: flex;
+    width: 315px;
+    margin: 0 auto;
+    font-size: $small;
+    li {
+    	margin: 10px 0;
+    }
+}
+.footer-menu a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+.address {
+	background: $secondary-color;
+	color: #58a881;
+	padding: 50px;
+	text-align: center;
+	h3 {
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: $small;
+	}
+	a {
+		text-decoration: none;
+		color: #58a881;
+	}
+}
+.footer {
+	background: #58a881;
+	color: $secondary-color;
+	font-size: 11px;
+	padding: 35px;
+	text-align: center;
+	.footer-legal {
+	}
+	.footer-legal li a {
+		text-decoration: none;
+		color: $secondary-color;
+
+	}
+	.footer-links {
+		display: flex;
+		width: 155px;
+		margin: 0 auto;
+		li {
+			padding: 10px;
+		}
+	}
+}
+@media only screen and (min-width: 768px) {
+	.text {
+		width: 900px;
+    	margin: 0 auto;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.steps {
+		display: flex;
+		justify-content: space-around;
+		width: 800px;
+		.steps-un {
+			width: 190px;
+			.num-text {
+				font-size: 18px;
+			}
+		}
+		.circle {
+			padding: 40px;
+			font-size: $medium;
+			p {
+				margin: -5px 0 0 -2px;
+			}
+		}
+	}
+	input {
+		width: 330px;
+		height: 50px;
+	}
+	button {
+		width: 350px;
+		height: 55px;
+	}
+}
+
